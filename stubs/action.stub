@@ -7,5 +7,8 @@ namespace {{ namespace }};
  */
 class DummyClass
 {
-
+    public function execute()
+    {
+        //
+    }
 }
