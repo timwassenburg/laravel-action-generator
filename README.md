@@ -14,7 +14,6 @@
 
 ## Table of Contents
   <ol>
-    <li><a href="#features">Features</a></li>
     <li><a href="#installation">Installation</a></li>
     <li>
       <a href="#usage">Usage</a>
