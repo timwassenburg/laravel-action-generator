@@ -24,12 +24,6 @@
     <li><a href="#license">License</a></li>
   </ol>
 
-## Features
-This package adds the ```php artisan make:action {name}``` command. The command 
-generates an empty service class in ```app\Services``` to get started. I made this mainly
-for own use because I like to be able to generate recurring files from the command line to keep
-my workflow consistent.
-
 ## Installation
 Install the package with composer.
 ```bash
@@ -37,8 +31,10 @@ composer require timwassenburg/laravel-action-generator
 ```
 
 ## Usage
-After installation the ```php artisan make:action {name}``` will be available in the list
-of artisan commands.
+Run the following command on the command-line to generate a new action.
+```
+php artisan make:action {name}
+```
 
 ## More generator packages
 Looking for more ways to speed up your workflow? Make sure to check out these packages.
@@ -46,7 +42,6 @@ Looking for more ways to speed up your workflow? Make sure to check out these pa
 - [Laravel Repository Generator](https://github.com/timwassenburg/laravel-repository-generator)
 - [Laravel Service Generator](https://github.com/timwassenburg/laravel-service-generator)
 - [Laravel Action Generator](https://github.com/timwassenburg/laravel-action-generator)
-- [Improved Resource Controllers](https://github.com/timwassenburg/laravel-improved-resource-controllers)
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
