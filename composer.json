@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TimWassenburg\\ActionGenerator\\ActionGeneratorServiceProvider"
+                "TraitGeneratorServiceProvider"
             ]
         }
     }
