@@ -20,7 +20,7 @@
 ## Installation
 Install the package with composer.
 ```bash
-composer require timwassenburg/laravel-action-generator
+composer require timwassenburg/laravel-action-generator --dev
 ```
 
 ## Usage
