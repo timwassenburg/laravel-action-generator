@@ -1,6 +1,7 @@
 <img src="img/banner.png" alt="Logo">
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/timwassenburg/laravel-action-generator.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/laravel-action-generator)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/timwassenburg/laravel-action-generator/run-tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/timwassenburg/laravel-action-generator/actions?query=workflow%3Arun-tests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/timwassenburg/laravel-action-generator.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/laravel-action-generator)
 [![License](https://img.shields.io/packagist/l/timwassenburg/laravel-action-generator)](https://packagist.org/packages/timwassenburg/laravel-action-generator)
 
@@ -12,6 +13,7 @@
     <li>
       <a href="#usage">Usage</a>
     </li>
+    <li><a href="#testing">Testing</a></li>
     <li><a href="#more-generator-packages">More generator packages</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -27,6 +29,14 @@ composer require timwassenburg/laravel-action-generator --dev
 Run the following command on the command-line to generate a new action.
 ```
 php artisan make:action {name}
+```
+
+## Testing
+
+Run the tests with:
+
+```bash
+composer test
 ```
 
 ## More generator packages
